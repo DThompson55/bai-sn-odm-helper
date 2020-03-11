@@ -1,0 +1,18 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "main": "hello_loans.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dan Thompson",
+  "license": "ISC",
+  "description": "Pushes REST calls to IBM ODM Miniloan Ruleset",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2",
+    "throttled-request": "^0.1.1"
+  }
+}
