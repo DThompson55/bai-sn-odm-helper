@@ -9,7 +9,7 @@ Before ~~messing with~~ using the contents of this repo, you should complete you
 I assume you already have ODM installed on your desktop. I used the miniload ruleset to demonstrate BAI. You get the miniload ruleset by installing ODM samples server.
 
 1. Clone this git
-2. Acquire BAI, for which you'll need and IBM license
+2. Acquire BAI, for which you'll need an IBM license
 3. Acquire / Install / Start Docker Desktop
 4. Unzip BAI
 5. Configure BAI by editing its .env file
@@ -19,10 +19,10 @@ I assume you already have ODM installed on your desktop. I used the miniload rul
 9. In ODM / Decision Server go to the HTDS tester, and run one test of your ruleset.
 10. Open Kafka - you should see one transaction
 11. In Kafka
-..11. Modify the timeseries so that the boolean value 'accept loan' produces a text string 'AcceptAsLabel' either Reject or Accepted.
-..11. Add a visualization. I used a wordcloud, but I prebuilt several other visualizations.
-..11. Add the visualization to a dashboard
-..11. Run some load through ODM and watch the dashboard change over time
+ 11. Modify the timeseries so that the boolean value 'accept loan' produces a text string 'AcceptAsLabel' either Reject or Accepted.
+ 11. Add a visualization. I used a wordcloud, but I prebuilt several other visualizations.
+ 11. Add the visualization to a dashboard
+ 11. Run some load through ODM and watch the dashboard change over time
 
 
 ## Using this repo
