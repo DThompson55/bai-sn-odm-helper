@@ -2,6 +2,8 @@
 
 These are the steps I used in the video to install and run bai single node on a MacOS desktop. BAI Single Node is a lot like the full install, but does not give you the ability to collect information in Hadoop.
 
+As always, please refer to the official IBM documentation for this [https://www.ibm.com/support/knowledgecenter/SSYHZ8_19.0.x/com.ibm.dba.bai/topics/con_bai_sn_overview.html]
+
 Before ~~messing with~~ using the contents of this repo, you should complete your BAI install to the point of having run the --init  
 
 I assume you already have ODM installed on your desktop. I used the miniload ruleset to demonstrate BAI. You get the miniload ruleset by installing ODM samples server.
